@@ -1,0 +1,27 @@
+{
+  "name": "node_api_template_mysql",
+  "version": "1.0.0",
+  "description": "first initial project `` npm init -y `` update packages `` ncu -u `` The first thing is to install the dependencies, for this we will use npm from node. ``",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
